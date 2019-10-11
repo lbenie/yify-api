@@ -1,0 +1,37 @@
+language: node_js
+node_js:
+  - stable
+env:
+  matrix:
+    - BUILD_LEADER_ID=4
+  global:
+    secure: e9JatoaJARM8e6HvzJiVdWR99jAItOtuNk60upDG+hCHvVXcACnGwqFoPqpv79aiNdle8uZ/YyZIVslTLvXKOy1vy8kL3ozNLY7l/tdmTe9HyetDVBQ5laGXttEZ+10bQhquQ7A8cyqdbAMnlkid3U4JuR59hEyDLTE5Ilqvdukay9g6Tk1C1T6EqcGL4IxkKmZN+wjND7ffriZllKfOmoJkZNWZyIZtwzuwUXKD1YvKL6Udq57iu8D2DrUe/yKIYKEIuIatEbci45/t38+GM5kqHl6AlflJwGedVdz3MpNHbm2uUuhCK7cc+psWpyCpXk/K8nRk/0bwV68BSqtiC3YQoCY77ysXyZKoTSIA6wYtjayjOc1BXunFfDw/L531UFFj2U3gTMWClIqO3ytcrlOVauMwsxJEBu1DOdSI41QMpQ+mb1As7wucYCIYmwsuauJWF0DupwPt4L+B6szD0sf+V6ViHdjvyJAaaU4t+vyJ22LCpzunOGd0jVvNRymRB0IWNp/Chl5dRaRtYW6lntwQQbo4vluaNbah+WvPWQ+Mweqt5F2CXebivTX9UkguKapqjvnfDP8Ay1Cf3r2eni9u1wzNiijuwlBIamwd6FdcJvZQ5WcnGyM7v/OyqHL6i9De1iZXGzJjsdK9tqf/QbLTwjph9Htg7Ms6qk4GlbQ=
+cache:
+  yarn: true
+  directories:
+    - node_modules
+    - '~/.npm'
+stages:
+  - test
+  - npm release
+notifications:
+  email:
+    on_success: change
+    on_failure: always
+jobs:
+  include:
+    - stage: test
+      script:
+        - commitlint-travis
+        - yarn test
+      after_success:
+        - yarn codecov
+      if: type IN (push, pull_request)
+    - stage: npm release
+      if: branch = master
+      skip-cleanup: true
+      node_js:
+        - stable
+      script: yarn build
+      after_success:
+        - yarn semantic-release
