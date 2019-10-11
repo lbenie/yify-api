@@ -1,0 +1,12 @@
+{
+  "eslint.validate": [
+    "javascript",
+    {
+      "language": "typescript",
+      "autoFix": true
+    }
+  ],
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true
+  }
+}
