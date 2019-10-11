@@ -1,6 +1,7 @@
 # yify-api
 
 [![Build Status](https://travis-ci.org/lbenie/yify-api.svg?branch=master)](https://travis-ci.org/lbenie/yify-api)
+[![codecov](https://codecov.io/gh/lbenie/yify-api/branch/master/graph/badge.svg)](https://codecov.io/gh/lbenie/yify-api)
 [![Mutation testing badge](https://badge.stryker-mutator.io/github.com/lbenie/yify-api/master)](https://stryker-mutator.github.io)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 
