@@ -21,11 +21,27 @@ This module is written in TypeScript and provides the typings.
 
 ## Usage
 
+It works both on the web and node.
+
+### module
+
 ```ts
 import { YifyService } from 'yify-api'
 
 // apiBaseUrl defaults to: https://yts.lt/api/v2/
 const yifyService = new YifyService()
+
+yifyService.getMovies().then(movies => {
+  // movies
+})
+```
+
+### commonjs
+
+```ts
+const yifyApi = require('yify-api')
+
+const yifyService = new yifyApi.YifyService()
 
 yifyService.getMovies().then(movies => {
   // movies
