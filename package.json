@@ -13,6 +13,7 @@
     "test:stryker": "stryker run"
   },
   "devDependencies": {
+    "@commitlint/cli": "^8.2.0",
     "@commitlint/config-conventional": "^8.2.0",
     "@stryker-mutator/core": "^2.1.0",
     "@stryker-mutator/html-reporter": "^2.1.0",
@@ -23,7 +24,6 @@
     "@typescript-eslint/parser": "^2.3.3",
     "codecov": "^3.6.1",
     "commitizen": "^4.0.3",
-    "commitlint": "^8.2.0",
     "cz-conventional-changelog": "3.0.2",
     "eslint": "^6.5.1",
     "eslint-config-prettier": "^6.4.0",
