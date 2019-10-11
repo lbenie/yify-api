@@ -8,7 +8,8 @@
 ![npm type definitions](https://img.shields.io/npm/types/yify-api)
 ![npm bundle size](https://img.shields.io/bundlephobia/minzip/yify-api)
 ![GitHub All Releases](https://img.shields.io/github/downloads/lbenie/yify-api/total)
-![GitHub Release Date](https://img.shields.io/github/release-date/lbenie/yify-api)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/lbenie/yify-api)
+![npm](https://img.shields.io/npm/v/yify-api)
 ![npm](https://img.shields.io/npm/dm/yify-api)
 ![Snyk Vulnerabilities for npm package](https://img.shields.io/snyk/vulnerabilities/npm/yify-api)
 
