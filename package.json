@@ -2,10 +2,12 @@
   "name": "yify-api",
   "version": "0.0.1",
   "description": "yify torrent api",
-  "main": "dist/index",
   "repository": "git@github.com:lbenie/yify-api.git",
   "author": "Lucien Bénié <lucien.benie@gmail.com>",
   "license": "MIT",
+  "main": "dist/cjs/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "rollup -c",
     "test": "jest && stryker run",
