@@ -12,45 +12,45 @@ export class YifyService {
   constructor(private readonly baseUrl?: string) {}
 
   async getMovies(params?: MoviesPayload) {
-    try {
-      const { data } = await axios.get<YifyResponse<MoviesResponse>>(
+    const { data } = await axios
+      .get<YifyResponse<MoviesResponse>>(
         `${this.baseUrl || 'https://yts.lt/api/v2/'}list_movies.json`,
         {
           params,
         },
       )
+      .catch(e => {
+        throw new Error(e)
+      })
 
-      return data
-    } catch (e) {
-      throw new Error(e)
-    }
+    return data
   }
 
   async getMovie(params: MoviePayload) {
-    try {
-      const { data } = await axios.get<YifyResponse<MovieResponse>>(
+    const { data } = await axios
+      .get<YifyResponse<MovieResponse>>(
         `${this.baseUrl || 'https://yts.lt/api/v2/'}movie_details.json`,
         {
           params,
         },
       )
+      .catch(e => {
+        throw new Error(e)
+      })
 
-      return data
-    } catch (e) {
-      throw new Error(e)
-    }
+    return data
   }
 
   async getSuggestions(params: MovieSuggestionsPayload) {
-    try {
-      const { data } = await axios.get<YifyResponse<MoviesResponse>>(
+    const { data } = await axios
+      .get<YifyResponse<MoviesResponse>>(
         `${this.baseUrl || 'https://yts.lt/api/v2/'}movie_suggestions.json`,
         { params },
       )
+      .catch(e => {
+        throw new Error(e)
+      })
 
-      return data
-    } catch (e) {
-      throw new Error(e)
-    }
+    return data
   }
 }
