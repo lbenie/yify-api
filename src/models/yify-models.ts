@@ -178,6 +178,9 @@ export interface MoviesResponse {
 }
 
 export interface MovieResponse {
+  /**
+   * Relative information about the movie
+   */
   readonly movie: Movie
 }
 
