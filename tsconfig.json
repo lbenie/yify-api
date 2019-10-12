@@ -2,9 +2,9 @@
   "compilerOptions": {
     "baseUrl": ".",
     "moduleResolution": "node",
-    "target": "es6",
+    "target": "esnext",
     "module": "es2015",
-    "lib": ["es2015", "es2016", "es2017", "dom"],
+    "lib": ["es2015", "es2016", "es2017"],
     "strict": true,
     "sourceMap": true,
     "declaration": true,
@@ -18,9 +18,5 @@
     }
   },
   "exclude": ["node_modules", "**/*.spec.ts"],
-  "include": [
-    "src/**/*.ts",
-    "__mocks__/axios.ts",
-    "__test__/yify-service.spec.ts"
-  ]
+  "include": ["src/**/*.ts", "__mocks__/**/*.ts", "__test__/**/*.ts"]
 }
