@@ -21,6 +21,7 @@ notifications:
 jobs:
   include:
     - stage: test
+      before_install: npm install -g yarn
       script:
         - commitlint-travis
         - yarn test
@@ -32,6 +33,7 @@ jobs:
       skip-cleanup: true
       node_js:
         - stable
+      before_install: npm install -g yarn
       script: yarn build
       after_success:
         - yarn semantic-release
