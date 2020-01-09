@@ -43,7 +43,7 @@
     "rollup-plugin-node-resolve": "^5.2.0",
     "rollup-plugin-peer-deps-external": "^2.2.0",
     "rollup-plugin-typescript2": "^0.25.2",
-    "semantic-release": "^15.13.24",
+    "semantic-release": "^16.0.0",
     "ts-jest": "^24.1.0",
     "typescript": "^3.6.3"
   },
