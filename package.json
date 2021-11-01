@@ -17,7 +17,7 @@
   },
   "devDependencies": {
     "@commitlint/cli": "14.1.0",
-    "@commitlint/config-conventional": "13.2.0",
+    "@commitlint/config-conventional": "14.1.0",
     "@commitlint/travis-cli": "13.2.1",
     "@semantic-release/github": "8.0.1",
     "@semantic-release/npm": "8.0.2",
