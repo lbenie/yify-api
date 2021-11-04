@@ -20,7 +20,7 @@
     "@commitlint/config-conventional": "14.1.0",
     "@commitlint/travis-cli": "14.1.0",
     "@semantic-release/github": "8.0.2",
-    "@semantic-release/npm": "8.0.2",
+    "@semantic-release/npm": "8.0.3",
     "@stryker-mutator/core": "5.4.1",
     "@stryker-mutator/html-reporter": "3.1.0",
     "@stryker-mutator/jest-runner": "5.4.1",
