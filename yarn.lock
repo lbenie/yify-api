@@ -752,25 +752,10 @@
   resolved "https://registry.yarnpkg.com/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
-"@commitlint/cli@16.0.2":
+"@commitlint/cli@16.0.2", "@commitlint/cli@^16.0.2":
   version "16.0.2"
   resolved "https://registry.yarnpkg.com/@commitlint/cli/-/cli-16.0.2.tgz#393b03793fc59b93e5f4dd7dd535a6cc5a7413ca"
   integrity sha512-Jt7iaBjoLGC5Nq4dHPTvTYnqPGkElFPBtTXTvBpTgatZApczyjI2plE0oG4GYWPp1suHIS/VdVDOMpPZjGVusg==
-  dependencies:
-    "@commitlint/format" "^16.0.0"
-    "@commitlint/lint" "^16.0.0"
-    "@commitlint/load" "^16.0.0"
-    "@commitlint/read" "^16.0.0"
-    "@commitlint/types" "^16.0.0"
-    lodash "^4.17.19"
-    resolve-from "5.0.0"
-    resolve-global "1.0.0"
-    yargs "^17.0.0"
-
-"@commitlint/cli@^16.0.1":
-  version "16.0.1"
-  resolved "https://registry.yarnpkg.com/@commitlint/cli/-/cli-16.0.1.tgz#21905c898ebece7da42277209022b1bc80c4fb39"
-  integrity sha512-61gGRy65WiVDRsqP0dAR2fAgE3qrTBW3fgz9MySv32y5Ib3ZXXDDq6bGyQqi2dSaPuDYzNCRwwlC7mmQM73T/g==
   dependencies:
     "@commitlint/format" "^16.0.0"
     "@commitlint/lint" "^16.0.0"
@@ -939,12 +924,12 @@
   dependencies:
     find-up "^5.0.0"
 
-"@commitlint/travis-cli@16.0.1":
-  version "16.0.1"
-  resolved "https://registry.yarnpkg.com/@commitlint/travis-cli/-/travis-cli-16.0.1.tgz#48b95a24738adc05597ffaef6dac5b67725cd74b"
-  integrity sha512-u/ZX/2lMr6IBZ2R6MV++V5BJWeQ72VgBRILsRtJUFteTTvSWgS/JU583cWYyd/4dJNORK/CB2QHCm1oDJzxH/g==
+"@commitlint/travis-cli@16.0.2":
+  version "16.0.2"
+  resolved "https://registry.yarnpkg.com/@commitlint/travis-cli/-/travis-cli-16.0.2.tgz#a7d3ab7b4ea45c49ff9b0e8065caac9a3b38f04d"
+  integrity sha512-5yy3H0K+Txo7/g/UuuHLc08mwIST20ruWgHRuFxWkbBnCSClUP9ElXDIkVudWVhmX0+8oQWdCW94E8xytIVBJw==
   dependencies:
-    "@commitlint/cli" "^16.0.1"
+    "@commitlint/cli" "^16.0.2"
     execa "^5.0.0"
 
 "@commitlint/types@^12.1.4":
