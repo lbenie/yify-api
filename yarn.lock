@@ -1601,6 +1601,15 @@
     mutation-testing-report-schema "1.7.6"
     tslib "~2.3.0"
 
+"@stryker-mutator/api@5.6.0":
+  version "5.6.0"
+  resolved "https://registry.yarnpkg.com/@stryker-mutator/api/-/api-5.6.0.tgz#a8dacbbe157634e1342b0a407e7653a92ab057f1"
+  integrity sha512-3SJk2niEym3IocuWOK5hA1ubUyKu9qeuX2Rv6/twS9g5YeewNjVN66/NwfqsRJLLCEmeCRzqcQRsWFsrmsTxZA==
+  dependencies:
+    mutation-testing-metrics "1.7.8"
+    mutation-testing-report-schema "1.7.8"
+    tslib "~2.3.0"
+
 "@stryker-mutator/core@5.5.1":
   version "5.5.1"
   resolved "https://registry.yarnpkg.com/@stryker-mutator/core/-/core-5.5.1.tgz#2279ec7df5e7ed18e10c56b795845d983ce8f3b2"
@@ -1657,13 +1666,13 @@
     angular-html-parser "~1.8.0"
     weapon-regex "~0.6.0"
 
-"@stryker-mutator/jest-runner@5.5.1":
-  version "5.5.1"
-  resolved "https://registry.yarnpkg.com/@stryker-mutator/jest-runner/-/jest-runner-5.5.1.tgz#0778d71f3bf0b33afd769d64734a7c11b2908ffc"
-  integrity sha512-6aqJU7gKDViEh2aJwvNO3wxhTbdsOOx0sy1P0pfuaXiZEmiFhcxNFiohuzxUeXjyBY6G21lyiZ0X4eWxC7BXzA==
+"@stryker-mutator/jest-runner@5.6.0":
+  version "5.6.0"
+  resolved "https://registry.yarnpkg.com/@stryker-mutator/jest-runner/-/jest-runner-5.6.0.tgz#7a3eb9866bd149f50c1436198fe85c988e413b56"
+  integrity sha512-dzTeoHLu82v3DdCHN2eExVSEpoN6XEv6h7LB6VnklkF2fomxo77t8Q9xoxzkHBUKK8eV7FUlGVC8j/1/j3ECXQ==
   dependencies:
-    "@stryker-mutator/api" "5.5.1"
-    "@stryker-mutator/util" "5.5.1"
+    "@stryker-mutator/api" "5.6.0"
+    "@stryker-mutator/util" "5.6.0"
     semver "~7.3.5"
     tslib "~2.3.0"
 
@@ -1676,6 +1685,13 @@
   version "5.5.1"
   resolved "https://registry.yarnpkg.com/@stryker-mutator/util/-/util-5.5.1.tgz#2e286cd70345e8b54303560081978107ded2deea"
   integrity sha512-+g1FKS6zFpjidvRMBaqN1Cpjt2BwD5mPrkQ+Ry3cDg7ezZ7Ml3fHS0zrB1cVHfwsp1NWhzvo8FgVDFXD146J/w==
+  dependencies:
+    lodash.flatmap "~4.5.0"
+
+"@stryker-mutator/util@5.6.0":
+  version "5.6.0"
+  resolved "https://registry.yarnpkg.com/@stryker-mutator/util/-/util-5.6.0.tgz#2d60535381c34ca71c7dfb49fecb88356becfc11"
+  integrity sha512-r7dwuxWedO4VXSUKprC3ayiKlM+3jiebaGdAjOXgbbAPIelpBvLioZzkf9koxGHPl47UubJfWIYs3Cbxg41E8w==
   dependencies:
     lodash.flatmap "~4.5.0"
 
@@ -5786,10 +5802,22 @@ mutation-testing-metrics@1.7.6:
   dependencies:
     mutation-testing-report-schema "1.7.6"
 
+mutation-testing-metrics@1.7.8:
+  version "1.7.8"
+  resolved "https://registry.yarnpkg.com/mutation-testing-metrics/-/mutation-testing-metrics-1.7.8.tgz#1b57e6a947447a47d7a7e89a0290d7443340f690"
+  integrity sha512-WZACxXE5s3Sh5pHLaTcmJ3tdHI3JX1PGwrPE/nNZ2DQ2rl6y8CBlWsCMmHwFLpWT+JYGirx7MJoU7/7smBCZoQ==
+  dependencies:
+    mutation-testing-report-schema "1.7.8"
+
 mutation-testing-report-schema@1.7.6:
   version "1.7.6"
   resolved "https://registry.yarnpkg.com/mutation-testing-report-schema/-/mutation-testing-report-schema-1.7.6.tgz#05171b8be9ed68d81976fd0857cbeaef3c0c91d6"
   integrity sha512-tqV1IBkMatB4qljqFnlMV5y8fM48wTGdnZg0wKt3GEfEt77bUHGo3xng4JD8/0TPOg+sYhOt79VyizfZeZD48Q==
+
+mutation-testing-report-schema@1.7.8:
+  version "1.7.8"
+  resolved "https://registry.yarnpkg.com/mutation-testing-report-schema/-/mutation-testing-report-schema-1.7.8.tgz#3f5b041ef85e2d42c84db8e651e9d3a74a3547e2"
+  integrity sha512-m0hjxDUMdGpgQRQILM3tr2/j7aJ8baBA9lhERzEK2sVv+7JLTyIVd0BjhI97v7xLNeIOSKny+jEWLejoINmfug==
 
 mute-stream@0.0.7:
   version "0.0.7"
