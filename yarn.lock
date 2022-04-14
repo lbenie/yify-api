@@ -4791,10 +4791,10 @@ jest-message-util@^27.5.1:
     slash "^3.0.0"
     stack-utils "^2.0.3"
 
-jest-mock-axios@4.6.0:
-  version "4.6.0"
-  resolved "https://registry.yarnpkg.com/jest-mock-axios/-/jest-mock-axios-4.6.0.tgz#4b598184bb19e0984725e17cc94c196b60e76a4b"
-  integrity sha512-5KwbxbzQDsT/xAi57qDndOY1Y3NoAB+4aHX6NuHqXpWxQndBzFSVSv8+5rhxsG5KDqaWJrz8cXgx5DRD+WBeXA==
+jest-mock-axios@4.6.1:
+  version "4.6.1"
+  resolved "https://registry.yarnpkg.com/jest-mock-axios/-/jest-mock-axios-4.6.1.tgz#a436445ea839513972d9913d5b6d84f4e1cb9c81"
+  integrity sha512-ygTAaOc8N/DGodoJ+JJKP0QLLx12lvYDYgIhrLjFXVGWp5qtQDgtyGq+VciVC2ySdYH8W04y+CTY10qM6BpsjQ==
   dependencies:
     "@jest/globals" "^27.5.1"
     jest "^27.5.1"
