@@ -21,7 +21,7 @@
     "@commitlint/travis-cli": "16.2.4",
     "@semantic-release/github": "8.0.4",
     "@semantic-release/npm": "9.0.1",
-    "@stryker-mutator/core": "5.5.1",
+    "@stryker-mutator/core": "5.6.1",
     "@stryker-mutator/html-reporter": "3.1.0",
     "@stryker-mutator/jest-runner": "5.6.1",
     "@stryker-mutator/typescript": "4.0.0",
