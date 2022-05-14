@@ -780,7 +780,7 @@
   resolved "https://registry.yarnpkg.com/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
-"@commitlint/cli@16.3.0":
+"@commitlint/cli@16.3.0", "@commitlint/cli@^16.3.0":
   version "16.3.0"
   resolved "https://registry.yarnpkg.com/@commitlint/cli/-/cli-16.3.0.tgz#5689f5c2abbb7880d5ff13329251e5648a784b16"
   integrity sha512-P+kvONlfsuTMnxSwWE1H+ZcPMY3STFaHb2kAacsqoIkNx66O0T7sTpBxpxkMrFPyhkJiLJnJWMhk4bbvYD3BMA==
@@ -788,21 +788,6 @@
     "@commitlint/format" "^16.2.1"
     "@commitlint/lint" "^16.2.4"
     "@commitlint/load" "^16.3.0"
-    "@commitlint/read" "^16.2.1"
-    "@commitlint/types" "^16.2.1"
-    lodash "^4.17.19"
-    resolve-from "5.0.0"
-    resolve-global "1.0.0"
-    yargs "^17.0.0"
-
-"@commitlint/cli@^16.2.4":
-  version "16.2.4"
-  resolved "https://registry.yarnpkg.com/@commitlint/cli/-/cli-16.2.4.tgz#f22707918d08c27a19779798788a7c793f1d38e6"
-  integrity sha512-rbvqvz9JI+uiKxV2nH65BtSU01fsADd3bxe9fWtO3rM0c+CI/H9FfzKkDLvSRmXjvk1G2/wXlCGeqO9IBT4X9g==
-  dependencies:
-    "@commitlint/format" "^16.2.1"
-    "@commitlint/lint" "^16.2.4"
-    "@commitlint/load" "^16.2.4"
     "@commitlint/read" "^16.2.1"
     "@commitlint/types" "^16.2.1"
     lodash "^4.17.19"
@@ -881,23 +866,6 @@
     cosmiconfig "^7.0.0"
     lodash "^4.17.19"
     resolve-from "^5.0.0"
-
-"@commitlint/load@^16.2.4":
-  version "16.2.4"
-  resolved "https://registry.yarnpkg.com/@commitlint/load/-/load-16.2.4.tgz#32c9f4c6538b21cf48cf40266312bb1adb65f435"
-  integrity sha512-HjANm3/29ROV+zt4yfaY/K6gpr9Dbzgtlp0kSwZGW0poDXlD/yqVYgPQ6JolJzZii5FUz5R4yVLC15hVL/w60w==
-  dependencies:
-    "@commitlint/config-validator" "^16.2.1"
-    "@commitlint/execute-rule" "^16.2.1"
-    "@commitlint/resolve-extends" "^16.2.1"
-    "@commitlint/types" "^16.2.1"
-    "@types/node" ">=12"
-    chalk "^4.0.0"
-    cosmiconfig "^7.0.0"
-    cosmiconfig-typescript-loader "^1.0.0"
-    lodash "^4.17.19"
-    resolve-from "^5.0.0"
-    typescript "^4.4.3"
 
 "@commitlint/load@^16.3.0":
   version "16.3.0"
@@ -985,12 +953,12 @@
   dependencies:
     find-up "^5.0.0"
 
-"@commitlint/travis-cli@16.2.4":
-  version "16.2.4"
-  resolved "https://registry.yarnpkg.com/@commitlint/travis-cli/-/travis-cli-16.2.4.tgz#d80b5953ca9ce2a040139fa61ed1dae132da26f9"
-  integrity sha512-sbvAvi1RNRJVREhaKSgkPPSlC5VTds5gjLZ8r749ywlAhHjPpusSrbCLJbcMVVXhXSVbwN+P7t8pu8nCvXRJdw==
+"@commitlint/travis-cli@16.3.0":
+  version "16.3.0"
+  resolved "https://registry.yarnpkg.com/@commitlint/travis-cli/-/travis-cli-16.3.0.tgz#fbc01bbc637e0fd59bb59cf3e942bc6b80d783ce"
+  integrity sha512-8fOCcA6qdEWQIU9GedFnwgnSuRpZznauhjeFqmFqovymF+y1/844m0w+PHfodi4P9MFiq3P+Wy14WL8e673iLw==
   dependencies:
-    "@commitlint/cli" "^16.2.4"
+    "@commitlint/cli" "^16.3.0"
     execa "^5.0.0"
 
 "@commitlint/types@^12.1.4":
@@ -3320,14 +3288,6 @@ core-util-is@~1.0.0:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/core-util-is/-/core-util-is-1.0.2.tgz#b5fd54220aa2bc5ab57aab7140c940754503c1a7"
   integrity sha1-tf1UIgqivFq1eqtxQMlAdUUDwac=
-
-cosmiconfig-typescript-loader@^1.0.0:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/cosmiconfig-typescript-loader/-/cosmiconfig-typescript-loader-1.0.2.tgz#257b5bc3e2c18c280973aa3ff4ae423ac29ce9b4"
-  integrity sha512-27ZehvijYqAKVzta5xtZBS3PAliC8CmnWkGXN0vgxAZz7yqxpMjf3aG7flxF5rEiu8FAD7nZZXtOI+xUGn+bVg==
-  dependencies:
-    cosmiconfig "^7"
-    ts-node "^10.4.0"
 
 cosmiconfig-typescript-loader@^2.0.0:
   version "2.0.0"
@@ -8367,24 +8327,6 @@ ts-jest@28.0.2:
     make-error "1.x"
     semver "7.x"
     yargs-parser "^20.x"
-
-ts-node@^10.4.0:
-  version "10.4.0"
-  resolved "https://registry.yarnpkg.com/ts-node/-/ts-node-10.4.0.tgz#680f88945885f4e6cf450e7f0d6223dd404895f7"
-  integrity sha512-g0FlPvvCXSIO1JDF6S232P5jPYqBkRL9qly81ZgAOSU7rwI0stphCgd2kLiCrU9DjQCrJMWEqcNSjQL02s6d8A==
-  dependencies:
-    "@cspotcode/source-map-support" "0.7.0"
-    "@tsconfig/node10" "^1.0.7"
-    "@tsconfig/node12" "^1.0.7"
-    "@tsconfig/node14" "^1.0.0"
-    "@tsconfig/node16" "^1.0.2"
-    acorn "^8.4.1"
-    acorn-walk "^8.1.1"
-    arg "^4.1.0"
-    create-require "^1.1.0"
-    diff "^4.0.1"
-    make-error "^1.1.1"
-    yn "3.1.1"
 
 ts-node@^10.7.0:
   version "10.7.0"
