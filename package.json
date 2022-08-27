@@ -18,7 +18,7 @@
   "devDependencies": {
     "@commitlint/cli": "17.1.1",
     "@commitlint/config-conventional": "17.1.0",
-    "@commitlint/travis-cli": "17.0.3",
+    "@commitlint/travis-cli": "17.1.1",
     "@semantic-release/github": "8.0.6",
     "@semantic-release/npm": "9.0.1",
     "@stryker-mutator/core": "6.1.2",
