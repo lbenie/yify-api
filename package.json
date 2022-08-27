@@ -16,7 +16,7 @@
     "prepare": "husky install"
   },
   "devDependencies": {
-    "@commitlint/cli": "17.0.3",
+    "@commitlint/cli": "17.1.1",
     "@commitlint/config-conventional": "17.0.3",
     "@commitlint/travis-cli": "17.0.3",
     "@semantic-release/github": "8.0.6",
