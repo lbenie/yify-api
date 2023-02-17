@@ -2492,15 +2492,6 @@
   dependencies:
     "@sinonjs/commons" "^1.7.0"
 
-"@stryker-mutator/api@6.3.1":
-  version "6.3.1"
-  resolved "https://registry.yarnpkg.com/@stryker-mutator/api/-/api-6.3.1.tgz#183783d402df4bca32fd23656cd03458a1e72e7d"
-  integrity sha512-NmD3MwU+zujV/jvkDaesyvuwOzCFJ6cAusw5BsMdaCEi+wt6pmPw77FETD1fsBkoHhRaH4g8ptKjFMDyKX2Xug==
-  dependencies:
-    mutation-testing-metrics "1.7.10"
-    mutation-testing-report-schema "1.7.10"
-    tslib "~2.4.0"
-
 "@stryker-mutator/api@6.4.0":
   version "6.4.0"
   resolved "https://registry.yarnpkg.com/@stryker-mutator/api/-/api-6.4.0.tgz#b3f1577f208249213755b1e18ed4833097171781"
@@ -2569,27 +2560,20 @@
     angular-html-parser "~4.0.0"
     weapon-regex "~1.0.2"
 
-"@stryker-mutator/jest-runner@6.3.1":
-  version "6.3.1"
-  resolved "https://registry.yarnpkg.com/@stryker-mutator/jest-runner/-/jest-runner-6.3.1.tgz#a22dba48f6fe49cdd4b88007451aef236421d5a8"
-  integrity sha512-kJJ8OCuMvrFyc2XrczBsudqcekfRaDOhyC7OaMUVJOwMOGdBzGAAGV5TBwdZR3FXnaoOU24lqhqUxuB2E8Yo2w==
+"@stryker-mutator/jest-runner@6.4.0":
+  version "6.4.0"
+  resolved "https://registry.yarnpkg.com/@stryker-mutator/jest-runner/-/jest-runner-6.4.0.tgz#d484540f7a127de87b4c0bb9f6ff0a6235cc1761"
+  integrity sha512-zPRUb1TLcfr98rLpmLRSlsWrykU8kXZ8nVd6D7VqW2yjO8dgZv2LD9B+qZmoDcAuOSSna3wSJv1D69207SHWKQ==
   dependencies:
-    "@stryker-mutator/api" "6.3.1"
-    "@stryker-mutator/util" "6.3.1"
+    "@stryker-mutator/api" "6.4.0"
+    "@stryker-mutator/util" "6.4.0"
     semver "~7.3.7"
-    tslib "~2.4.0"
+    tslib "~2.5.0"
 
 "@stryker-mutator/typescript@4.0.0":
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/@stryker-mutator/typescript/-/typescript-4.0.0.tgz#55fdb91850a05916daa35361993194046c774631"
   integrity sha512-dTm8lyDP5HPSOd14ErXXAn6wY6QZMS6UbXPmexesZJeevNZUxRCHZqoTIJIY1a6WBbI2tKJzKuVjXih83jAXBQ==
-
-"@stryker-mutator/util@6.3.1":
-  version "6.3.1"
-  resolved "https://registry.yarnpkg.com/@stryker-mutator/util/-/util-6.3.1.tgz#9f933dc3dd657ee1b72985f0331b3f18ef2cd392"
-  integrity sha512-Oi5IulxqhncZ39QS4KcmUI6k4IWH03EfY/3TFc75IeODwClOVZpB7TasMfDVimAqchCmFzKFZUouqGRbrdcYWg==
-  dependencies:
-    lodash.flatmap "~4.5.0"
 
 "@stryker-mutator/util@6.4.0":
   version "6.4.0"
@@ -7437,24 +7421,12 @@ mutation-testing-elements@1.7.14:
   resolved "https://registry.yarnpkg.com/mutation-testing-elements/-/mutation-testing-elements-1.7.14.tgz#c9fa6886eb834b5f4be62ee68cd1bf68d6895f3b"
   integrity sha512-/klVQtO0W9Y3zRUf3Xaf4hvzjCpLMKWetg6/bnLDPBrGTySt7JeW+muh2JQcBessDJMFFZyFYKdCTJOL5AhlBw==
 
-mutation-testing-metrics@1.7.10:
-  version "1.7.10"
-  resolved "https://registry.yarnpkg.com/mutation-testing-metrics/-/mutation-testing-metrics-1.7.10.tgz#82697e96b6311426dbd7494a0ab4c01bb529c2ae"
-  integrity sha512-wQnfnvMoSkV/5AHurRaDouiXf2ENoo23cXNZw70ks+mftEGPwLMStlyQZytQrcY/9lQDdrNSdMSPt2Zri75OcA==
-  dependencies:
-    mutation-testing-report-schema "1.7.10"
-
 mutation-testing-metrics@1.7.14:
   version "1.7.14"
   resolved "https://registry.yarnpkg.com/mutation-testing-metrics/-/mutation-testing-metrics-1.7.14.tgz#6278042b1e7ebd75d39b9143cb1d1da8a3036d4a"
   integrity sha512-Y5I6p2gZy7sXYfWn9yR863vd3NA9IhjKccUdbybmHASRy5b7zit6B03DczuYU+cQDqZ7WX38gzQ9IFs/JdbHqQ==
   dependencies:
     mutation-testing-report-schema "1.7.14"
-
-mutation-testing-report-schema@1.7.10:
-  version "1.7.10"
-  resolved "https://registry.yarnpkg.com/mutation-testing-report-schema/-/mutation-testing-report-schema-1.7.10.tgz#3e03a2791097cb68bca11120cd936ec67b665fa1"
-  integrity sha512-lPbEVTAlx0XCXA5GKpb6+0mtDk9MoepYVsXhEtRcwiHRjmqBn2frwXL1Xmkh6HxYnEDIQddzZAgk8SIbkV7p+g==
 
 mutation-testing-report-schema@1.7.14:
   version "1.7.14"
@@ -9408,7 +9380,7 @@ tslib@^2.1.0:
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.3.1.tgz#e8a335add5ceae51aa261d32a490158ef042ef01"
   integrity sha512-77EbyPPpMz+FRFRuAFlWMtmgUWGe9UOG2Z25NqCwiIjRhOf5iKGuzSe5P2w1laq+FkRy4p+PCuVkJSGkzTEKVw==
 
-tslib@^2.4.0, tslib@~2.4.0:
+tslib@^2.4.0:
   version "2.4.0"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.4.0.tgz#7cecaa7f073ce680a05847aa77be941098f36dc3"
   integrity sha512-d6xOpEDfsi2CZVlPQzGeux8XMwLT9hssAsaPYExaQMuYskwb+x1x7J371tWlbBdWHroy99KnVB6qIkUbs5X3UQ==
