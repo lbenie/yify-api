@@ -2214,15 +2214,6 @@
   dependencies:
     "@sinonjs/commons" "^2.0.0"
 
-"@stryker-mutator/api@6.4.2":
-  version "6.4.2"
-  resolved "https://registry.yarnpkg.com/@stryker-mutator/api/-/api-6.4.2.tgz#1c0f5d37018991de1d46898fc790ccc6f9b8ae85"
-  integrity sha512-b9+h5lC2gdtjALUuu0FvcFCwaja7BVzYwmiR5JkQXr8sMtL3rcaYrX4wfI1uHmPqwx9wwjLKpn+FVuyc69IyuQ==
-  dependencies:
-    mutation-testing-metrics "1.7.14"
-    mutation-testing-report-schema "1.7.14"
-    tslib "~2.5.0"
-
 "@stryker-mutator/api@7.0.0":
   version "7.0.0"
   resolved "https://registry.yarnpkg.com/@stryker-mutator/api/-/api-7.0.0.tgz#77415858bd8b32ee1f55e1e327df94c0b40eb494"
@@ -2289,27 +2280,20 @@
     angular-html-parser "~4.0.0"
     weapon-regex "~1.1.0"
 
-"@stryker-mutator/jest-runner@6.4.2":
-  version "6.4.2"
-  resolved "https://registry.yarnpkg.com/@stryker-mutator/jest-runner/-/jest-runner-6.4.2.tgz#27806e8f5e1c3b62272b0febfe7f3da9e4143726"
-  integrity sha512-rDetgBolcqvtugsoDetOnVuQc5fvggSfAVmMqX/QILfd4aG55y1GJI9NBNzDF3Ye5HBs6t7jGODFz+z75W6PKw==
+"@stryker-mutator/jest-runner@7.0.0":
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/@stryker-mutator/jest-runner/-/jest-runner-7.0.0.tgz#0da4ccc08fdde31b9d4dc0eda415c962059e9d58"
+  integrity sha512-z1nKOVCb/shFMV5OMpYER6p+H60wS/AWHPDkQuD3+Du0cYxGM3fUGplv3ZtOk0XWO17VweH3WzLHJiNNI4JatA==
   dependencies:
-    "@stryker-mutator/api" "6.4.2"
-    "@stryker-mutator/util" "6.4.2"
-    semver "~7.3.7"
+    "@stryker-mutator/api" "7.0.0"
+    "@stryker-mutator/util" "7.0.0"
+    semver "~7.5.0"
     tslib "~2.5.0"
 
 "@stryker-mutator/typescript@4.0.0":
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/@stryker-mutator/typescript/-/typescript-4.0.0.tgz#55fdb91850a05916daa35361993194046c774631"
   integrity sha512-dTm8lyDP5HPSOd14ErXXAn6wY6QZMS6UbXPmexesZJeevNZUxRCHZqoTIJIY1a6WBbI2tKJzKuVjXih83jAXBQ==
-
-"@stryker-mutator/util@6.4.2":
-  version "6.4.2"
-  resolved "https://registry.yarnpkg.com/@stryker-mutator/util/-/util-6.4.2.tgz#8d7274198b955c9d29a068af2ff373a9060da8e2"
-  integrity sha512-L6lf2JddgLS3D8cIN7FxxkRPmZ0PF48sdvn5TPnDhwZ7/1IXRXolzJFtXhQinRnDu6SyKGSJcwNOeJXyCcmuLQ==
-  dependencies:
-    lodash.flatmap "~4.5.0"
 
 "@stryker-mutator/util@7.0.0":
   version "7.0.0"
@@ -6545,24 +6529,12 @@ mutation-testing-elements@2.0.1:
   resolved "https://registry.yarnpkg.com/mutation-testing-elements/-/mutation-testing-elements-2.0.1.tgz#044cbe6336183ad433c0f5dbef327bd28c10d098"
   integrity sha512-4piLXKUp3iyQ8O+n7tshESwTJI18Olj8ZwW8G9vMpuODKmc8MvQG63zbsiPb9KFJ8yEiiMNodQUSSdgLXpYxPA==
 
-mutation-testing-metrics@1.7.14:
-  version "1.7.14"
-  resolved "https://registry.yarnpkg.com/mutation-testing-metrics/-/mutation-testing-metrics-1.7.14.tgz#6278042b1e7ebd75d39b9143cb1d1da8a3036d4a"
-  integrity sha512-Y5I6p2gZy7sXYfWn9yR863vd3NA9IhjKccUdbybmHASRy5b7zit6B03DczuYU+cQDqZ7WX38gzQ9IFs/JdbHqQ==
-  dependencies:
-    mutation-testing-report-schema "1.7.14"
-
 mutation-testing-metrics@2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/mutation-testing-metrics/-/mutation-testing-metrics-2.0.1.tgz#0f1a4c68a6d7363843d1afe0163d8bf4307161b2"
   integrity sha512-YuxxOxg7mFdxL8DQFyU4ueip/8PL7+2/4FPR+xEetBII/c7p2Gt4FqN23US+wdQhNxsos4PCdYJjL8ddqo6/2g==
   dependencies:
     mutation-testing-report-schema "2.0.1"
-
-mutation-testing-report-schema@1.7.14:
-  version "1.7.14"
-  resolved "https://registry.yarnpkg.com/mutation-testing-report-schema/-/mutation-testing-report-schema-1.7.14.tgz#7c493c810d30038a636e1a2e9dd13f4917307983"
-  integrity sha512-vN2Gw5dXWp1I7fj9PSzyBPy7KqNG4wN5qMdHwTV339fbW2pH19qlSU5Qg6VJlAZtlfgUiDJ1NYYgIEjpoqrRZA==
 
 mutation-testing-report-schema@2.0.1:
   version "2.0.1"
@@ -7822,10 +7794,17 @@ semver@^6.0.0, semver@^6.3.0:
   resolved "https://registry.yarnpkg.com/semver/-/semver-6.3.0.tgz#ee0a64c8af5e8ceea67687b133761e1becbd1d3d"
   integrity sha512-b39TBaTSfV6yBrapU89p5fKekE2m/NwnDocOVruQFS1/veMgdzuPcnOM34M6CwxW8jH/lxEa5rBoDeUwu5HHTw==
 
-semver@^7.3.7, semver@~7.3.7:
+semver@^7.3.7:
   version "7.3.7"
   resolved "https://registry.yarnpkg.com/semver/-/semver-7.3.7.tgz#12c5b649afdbf9049707796e22a4028814ce523f"
   integrity sha512-QlYTucUYOews+WeEujDoEGziz4K6c47V/Bd+LjSSYcA94p+DmINdf7ncaUinThfvZyu13lN9OY1XDxt8C0Tw0g==
+  dependencies:
+    lru-cache "^6.0.0"
+
+semver@~7.5.0:
+  version "7.5.1"
+  resolved "https://registry.yarnpkg.com/semver/-/semver-7.5.1.tgz#c90c4d631cf74720e46b21c1d37ea07edfab91ec"
+  integrity sha512-Wvss5ivl8TMRZXXESstBA4uR5iXgEN/VC5/sOcuXdVLzcdkz4HWetIoRfG5gb5X+ij/G9rw9YoGn3QoQ8OCSpw==
   dependencies:
     lru-cache "^6.0.0"
 
