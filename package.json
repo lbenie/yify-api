@@ -19,7 +19,7 @@
     "@commitlint/cli": "17.6.5",
     "@commitlint/config-conventional": "17.6.5",
     "@commitlint/travis-cli": "17.4.0",
-    "@semantic-release/github": "9.0.0",
+    "@semantic-release/github": "9.0.2",
     "@semantic-release/npm": "10.0.3",
     "@stryker-mutator/core": "7.0.1",
     "@stryker-mutator/html-reporter": "3.1.0",
