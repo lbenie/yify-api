@@ -2257,15 +2257,6 @@
   dependencies:
     "@sinonjs/commons" "^2.0.0"
 
-"@stryker-mutator/api@7.0.1":
-  version "7.0.1"
-  resolved "https://registry.yarnpkg.com/@stryker-mutator/api/-/api-7.0.1.tgz#6409d726cadf15034a8a900b31d192d8353f16fa"
-  integrity sha512-kC1Cr1L3PitSrNjK85ev0mGVoSdvglCavVSof7dNZ3S5fXcDrvCzG7hsPt9g9Zho8GVZLN58PJ1kCquNo3mtaw==
-  dependencies:
-    mutation-testing-metrics "2.0.1"
-    mutation-testing-report-schema "2.0.1"
-    tslib "~2.5.0"
-
 "@stryker-mutator/api@7.0.2":
   version "7.0.2"
   resolved "https://registry.yarnpkg.com/@stryker-mutator/api/-/api-7.0.2.tgz#82062a8d115f029fe8826dd2108d26c67ec68279"
@@ -2332,13 +2323,13 @@
     angular-html-parser "~4.0.0"
     weapon-regex "~1.1.0"
 
-"@stryker-mutator/jest-runner@7.0.1":
-  version "7.0.1"
-  resolved "https://registry.yarnpkg.com/@stryker-mutator/jest-runner/-/jest-runner-7.0.1.tgz#2f860b2b86b747747e0c7271cb78a90668db683d"
-  integrity sha512-Vnkxz6tExTeV7iSCGywbry7WtUdn8aWQaopYbnJYelAajJjG5/V92A14AUrTlI/GkSmLBXE+NUiyA9KZV4pt7w==
+"@stryker-mutator/jest-runner@7.0.2":
+  version "7.0.2"
+  resolved "https://registry.yarnpkg.com/@stryker-mutator/jest-runner/-/jest-runner-7.0.2.tgz#31c2fd7565bb68245d1c3d30234701379f9472a0"
+  integrity sha512-DXGl50DUWPOdJ91rhzO/DMTku16Y96hukzgDg085bGRM8DY6PpaplMMMWk/9RJwmTadbrnhaaRf0RvzAnf4FyQ==
   dependencies:
-    "@stryker-mutator/api" "7.0.1"
-    "@stryker-mutator/util" "7.0.1"
+    "@stryker-mutator/api" "7.0.2"
+    "@stryker-mutator/util" "7.0.2"
     semver "~7.5.0"
     tslib "~2.5.0"
 
@@ -2346,13 +2337,6 @@
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/@stryker-mutator/typescript/-/typescript-4.0.0.tgz#55fdb91850a05916daa35361993194046c774631"
   integrity sha512-dTm8lyDP5HPSOd14ErXXAn6wY6QZMS6UbXPmexesZJeevNZUxRCHZqoTIJIY1a6WBbI2tKJzKuVjXih83jAXBQ==
-
-"@stryker-mutator/util@7.0.1":
-  version "7.0.1"
-  resolved "https://registry.yarnpkg.com/@stryker-mutator/util/-/util-7.0.1.tgz#0dc9e99720759252dfd41941f36ffd193b42958a"
-  integrity sha512-N50WK7h99Hwes48IYmkHz9cTOae4nBInhOFGh+K87m2TgtE89vyJk2E7rsZSBEvnxBXBgFYCB/V0D3nb0Ozi9Q==
-  dependencies:
-    lodash.flatmap "~4.5.0"
 
 "@stryker-mutator/util@7.0.2":
   version "7.0.2"
