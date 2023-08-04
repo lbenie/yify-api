@@ -39,7 +39,7 @@
     "jest-mock-axios": "4.7.2",
     "lint-staged": "13.2.3",
     "prettier": "3.0.1",
-    "rollup": "3.27.1",
+    "rollup": "3.27.2",
     "rollup-plugin-commonjs": "10.1.0",
     "rollup-plugin-node-resolve": "5.2.0",
     "rollup-plugin-peer-deps-external": "2.2.4",
